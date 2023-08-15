@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script>
+        function saludar() {
+            aler('mi primer evento v2')
+        }
+    </script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form onsubmit="return false">
+        <div>
+            <label for="">
+                Nombre
+            </label>
+             <input id="nombre" type="text">
+        </div>
+            <div>
+            <label for="">
+                apellido
+            </label>
+            <input id="apellido" type="text">
+        </div>
+        <div>
+            <label for="">
+                curso
+            </label>
+            <input id="curso" type="text">
+        </div>
+        <div>
+            <label for="">
+                edad
+            </label>
+            <input id="edad" type="number" min="18">
+        </div>
+    </form>
+    <button onclick="saludarDesdeArchivo">
+        add
+    </button>
+    <script src="./arrays.js"></script>
+</body>
+</html>
